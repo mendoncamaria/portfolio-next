@@ -18,11 +18,9 @@ const Banner = () => {
         <h3 className="text-xl md:text-2xl font-semibold bg-clip-text text-transparent bg-gradient-to-r from-blue-300 via-red-300 to-indigo-300 tracking-wide">
           Full Stack Developer
         </h3>
-        {/* <p className="text-base tracking-wide text-center md:text-left">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, cum
-          consequuntur soluta explicabo saepe voluptate atque accusantium quasi
-          perspiciatis, quos quaerat odit voluptatem, debitis culpa!
-        </p> */}
+        <p className="text-base tracking-wide text-center md:text-left">
+          {/* keep for any content */}
+        </p>
       </div>
     </div>
   );

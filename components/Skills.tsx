@@ -36,23 +36,8 @@ const Skills = () => {
           link="https://developer.mozilla.org/en-US/docs/Web/CSS"
         />
         <SkillsInput title="VS Code" link="https://code.visualstudio.com/" />
-        {/* <SkillsInput
-          title="Atom"
-          link="https://github.blog/2022-06-08-sunsetting-atom/"
-        /> */}
         <SkillsInput title="Git" link="https://git-scm.com/" />
         <SkillsInput title="Github" link="https://github.com/" />
-        {/* <SkillsInput title="Trello" link="https://trello.com/en" /> */}
-        {/* <SkillsInput title="GitKraken" link="https://www.gitkraken.com/" /> */}
-        {/* <SkillsInput title="UI Design" link="https://www.figma.com/" /> */}
-        {/* <SkillsInput title="Figma" link="https://www.figma.com/" /> */}
-        {/* <SkillsInput title="Canva" link="https://www.canva.com/" /> */}
-        {/* <SkillsInput
-          title="Adobe Illustrator"
-          link="https://www.adobe.com/products/illustrator/free-trial-download.html"
-        /> */}
-        {/* <SkillsInput title="Brand & LogoDesign" link="https://dribbble.com/" />
-        <SkillsInput title="Website Design" link="https://themeforest.net/" /> */}
         <SkillsInput title="Vercel" link="https://vercel.com/" />
         <SkillsInput title="netlify" link="https://www.netlify.com/" />
       </div>
