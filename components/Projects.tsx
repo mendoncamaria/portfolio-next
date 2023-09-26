@@ -3,6 +3,9 @@ import Title from "./Title";
 import ProjectCard from "./ProjectCard";
 import img from '../public/next.svg';
 import weather from '../public/img/weather-img.png';
+import quiz from '../public/img/quiz-web.png';
+import gradient from '../public/img/gradient-web.png';
+import tempConv from '../public/img/temp-conv.png';
 
 const Projects = () => {
   return (
@@ -14,11 +17,21 @@ const Projects = () => {
           title="Weather Application"
           link="https://weather-mendoncamaria.vercel.app/"
         />
-        {/* <ProjectCard
-          img={img}
+        <ProjectCard
+          img={quiz}
+          title="Quiz Website"
+          link="https://quiz-mendoncamaria.vercel.app/"
+        />
+        <ProjectCard
+          img={gradient}
+          title="Gradient Background Generator"
+          link="https://gradientbackground-mendoncamaria.netlify.app/"
+        />
+        <ProjectCard
+          img={tempConv}
           title="Project Name"
-          link=""
-        /> */}
+          link="https://temperatureconverter-mendoncamaria.netlify.app/"
+        />
       </div>
     </div>
   );
