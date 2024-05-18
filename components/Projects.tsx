@@ -6,7 +6,7 @@ import weather from '../public/img/weather-img.png';
 import quiz from '../public/img/quiz-web.png';
 import gradient from '../public/img/gradient-web.png';
 import tempConv from '../public/img/temp-conv.png';
-// import todoList from '../public/img/TodoList.png';
+import todoList from '../public/img/TodoList.png';
 
 const ProjectList = [
   {
@@ -29,11 +29,11 @@ const ProjectList = [
     title: 'Temperature Conversion',
     link: 'https://temperatureconverter-mendoncamaria.netlify.app/',
   },
-  // {
-  //   img: todoList,
-  //   title: 'Todo List',
-  //   link: 'https://mariamendonca-todo-app.netlify.app/',
-  // },
+  {
+    img: todoList,
+    title: 'Todo List',
+    link: 'https://mariamendonca-todo-app.netlify.app/',
+  },
 ];
 
 const Projects = () => {
