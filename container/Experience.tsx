@@ -1,7 +1,7 @@
-import Title from "./Title";
+import Title from "../components/Title";
 import { MdWork } from "react-icons/md";
 import { SiGooglecloud, SiExercism } from "react-icons/si";
-import ExperienceCard from "./ExperienceCard";
+import ExperienceCard from "../components/ExperienceCard";
 
 const Experience = () => {
   return (

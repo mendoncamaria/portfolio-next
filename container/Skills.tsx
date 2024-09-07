@@ -1,6 +1,6 @@
 import { GiSkills } from "react-icons/gi";
-import Title from "./Title";
-import SkillsInput from "./SkillsInput";
+import Title from "../components/Title";
+import SkillsInput from "../components/SkillsInput";
 
 const Skills = () => {
   return (

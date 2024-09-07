@@ -1,6 +1,6 @@
 import { FaProjectDiagram } from 'react-icons/fa';
-import Title from './Title';
-import ProjectCard from './ProjectCard';
+import Title from '../components/Title';
+import ProjectCard from '../components/ProjectCard';
 import weather from '../public/img/weather-img.png';
 import quiz from '../public/img/quiz-web.png';
 import gradient from '../public/img/gradient-web.png';
