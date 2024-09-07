@@ -23,6 +23,10 @@ const Contact = () => {
           title="Linkedin"
           link="https://www.linkedin.com/in/mariamendonca/"
         />
+        <SocialLink
+          title="Goodreads"
+          link="https://www.goodreads.com/user/show/118177530-maria-mendonca"
+        />
       </div>
     </div>
   );
