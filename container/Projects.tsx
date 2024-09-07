@@ -1,12 +1,12 @@
 import { FaProjectDiagram } from 'react-icons/fa';
-import Title from './Title';
-import ProjectCard from './ProjectCard';
-import img from '../public/next.svg';
+import Title from '../components/Title';
+import ProjectCard from '../components/ProjectCard';
 import weather from '../public/img/weather-img.png';
 import quiz from '../public/img/quiz-web.png';
 import gradient from '../public/img/gradient-web.png';
 import tempConv from '../public/img/temp-conv.png';
 import todoList from '../public/img/TodoList.png';
+import projectsManager from '../public/img/projectList.png';
 
 const ProjectList = [
   {

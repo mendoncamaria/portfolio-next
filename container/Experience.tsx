@@ -1,7 +1,7 @@
-import Title from "./Title";
+import Title from "../components/Title";
 import { MdWork } from "react-icons/md";
 import { SiGooglecloud, SiExercism } from "react-icons/si";
-import ExperienceCard from "./ExperienceCard";
+import ExperienceCard from "../components/ExperienceCard";
 
 const Experience = () => {
   return (
@@ -15,7 +15,7 @@ const Experience = () => {
         />
         <ExperienceCard
           title="Niveus Solutions Pvt Ltd"
-          subTitle="Associate Cloud Engineer- Frontend Development |  January 2022 - present"
+          subTitle="Associate Cloud Engineer- Frontend Development |  November 2021 - present"
           icon={<SiGooglecloud />}
         />
       </div>

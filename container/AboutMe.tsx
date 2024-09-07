@@ -1,11 +1,11 @@
 import { SiInformatica } from 'react-icons/si';
-import Title from './Title';
+import Title from '../components/Title';
 
-const Aboutme = () => {
+const AboutMe = () => {
   return (
     <div className="wrapper">
       <Title text="About Me" icon={<SiInformatica />} />
-      <div className="text-lg tracking-wide flex flex-col gap-6">
+      <div className="text-lg tracking-wide gap-6">
         <p>
           I&apos;m a passionate full-stack web developer with 2+ years of
           experience crafting intuitive and dynamic web applications. My journey
@@ -33,7 +33,7 @@ const Aboutme = () => {
           cross-functional teams. I&apos;m always eager to learn and grow, and
           I&apos;m excited to contribute my skills to challenging and innovative
           projects.
-          <br /><br />
+          
           {/* Feel free to explore my portfolio and get in touch with me if you&apos;re
           interested in working together or if you have any questions. Let&apos;s
           bring our ideas to life through the power of web development! */}
@@ -44,4 +44,4 @@ const Aboutme = () => {
   );
 };
 
-export default Aboutme;
+export default AboutMe;
