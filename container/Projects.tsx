@@ -1,38 +1,13 @@
 import { FaProjectDiagram } from 'react-icons/fa';
 import Title from '../components/Title';
-import ProjectCard from '../components/ProjectCard';
-import weather from '../public/img/weather-img.png';
-import quiz from '../public/img/quiz-web.png';
-import gradient from '../public/img/gradient-web.png';
-import tempConv from '../public/img/temp-conv.png';
-import todoList from '../public/img/TodoList.png';
+import ProjectCardNew from '../components/ProjectCardNew';
 import projectsManager from '../public/img/projectList.png';
 
 const ProjectList = [
   {
-    img: weather,
-    title: 'Weather Application',
-    link: 'https://weather-mendoncamaria.vercel.app/',
-  },
-  {
-    img: quiz,
-    title: 'Quiz Website',
-    link: 'https://quiz-mendoncamaria.vercel.app/',
-  },
-  {
-    img: gradient,
-    title: 'Gradient Background Generator',
-    link: 'https://gradientbackground-mendoncamaria.netlify.app/',
-  },
-  {
-    img: tempConv,
-    title: 'Temperature Conversion',
-    link: 'https://temperatureconverter-mendoncamaria.netlify.app/',
-  },
-  {
-    img: todoList,
-    title: 'Todo List',
-    link: 'https://mariamendonca-todo-app.netlify.app/',
+    img: projectsManager,
+    title: 'Projects Manager Dashboard - Find all Projects i built here',
+    link: 'https://projectlist-mendoncamaria.vercel.app/',
   },
 ];
 
@@ -40,9 +15,9 @@ const Projects = () => {
   return (
     <div className="wrapper">
       <Title text="Projects" icon={<FaProjectDiagram />} />
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 place-items-center">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 place-items-center h-full">
         {ProjectList.map((item, index) => (
-          <ProjectCard
+          <ProjectCardNew
             img={item.img}
             title={item.title}
             link={item.link}
