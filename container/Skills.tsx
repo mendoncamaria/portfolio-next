@@ -26,7 +26,7 @@ const Skills = () => {
           link="https://firebase.google.com/"
         />
         <SkillsInput title="Tailwindcss" link="https://tailwindcss.com/" />
-        {/* <SkillsInput title="Sanity.io" link="https://www.sanity.io/" /> */}
+        <SkillsInput title="GoLang" link="https://go.dev/" />
         <SkillsInput
           title="HTML5"
           link="https://developer.mozilla.org/en-US/docs/Glossary/HTML5"
