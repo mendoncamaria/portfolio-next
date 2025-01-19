@@ -15,7 +15,7 @@ const Experience = () => {
         />
         <ExperienceCard
           title="Niveus Solutions Pvt Ltd"
-          subTitle="Associate Cloud Engineer- Frontend Development |  November 2021 - present"
+          subTitle="Associate Cloud Engineer- Frontend Development |  January 2022 - present"
           icon={<SiGooglecloud />}
         />
       </div>
