@@ -7,7 +7,7 @@ const AboutMe = () => {
       <Title text="About Me" icon={<SiInformatica />} />
       <div className="text-lg tracking-wide gap-6">
         <p>
-          I&apos;m a passionate full-stack web developer with 2+ years of
+          I&apos;m a passionate full-stack web developer with 3+ years of
           experience crafting intuitive and dynamic web applications. My journey
           began with a deep dive into the banking industry, where I honed my
           skills in building user-centric interfaces. Since then, I&apos;ve been
