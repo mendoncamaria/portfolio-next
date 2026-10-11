@@ -8,7 +8,7 @@ interface Props {
 const ProjectCard = ({ title, link, img }: Props) => {
   return (
     <a href={link} target="_blank">
-      <div className="w-full h-80 border-[1px] border-blue-600 overflow-hidden relative rounded-lg group">
+      <div className="w-full h-80 border border-blue-600 overflow-hidden relative rounded-lg group">
         <Image
           className="object-cover translate-y-0"
           width={350}

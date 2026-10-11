@@ -15,11 +15,11 @@ export const BannerTexts = {
   JOB_ROLE:
     'Senior Frontend Engineer   |   Code Mentor   |   Continuous Learner',
   DESCRIPTION:
-    'I design, architect and code beautifully simple and amazingly complex things, and I love what I do.',
+    'I design, architect and code beautifully simple, scalable things, and I love what I do.',
 };
 
 export const AboutMeDescriptions = {
-  DESCRIPTION_1: `I am a Senior Frontend Engineer with nearly ${getExperienceYears('2022-01-24')} of experience architecting resilient, accessible, and high-performance web applications. My career spans building mission-critical interfaces for the banking industry to driving enterprise-scale frontend governance, accessibility initiatives, and performance optimization.`,
+  DESCRIPTION_1: `I am a Senior Frontend Engineer with ${getExperienceYears('2022-01-24')} of experience architecting resilient, accessible, and high-performance web applications. My career spans building mission-critical interfaces for the banking industry to driving enterprise-scale frontend governance, accessibility initiatives, and performance optimization.`,
   DESCRIPTION_2:
     'My technical approach centers on clean architecture, inclusive design by default, and bridging business strategy with technical execution. Whether migrating legacy monoliths to modern microservices, establishing strict quality guardrails, or leading high-priority engineering squads, I focus on delivering scalable software that drives measurable impact.',
 };
@@ -54,6 +54,7 @@ export const SkillsTexts = {
 export const ContactTexts = {
   HEADER: 'Let us create awesome products!',
   DESCRIPTION:
-    ' I am always open to discussing your project, improving your online presence, or helping with Your website design and converting challenges.',
+    'I’m open to Senior Frontend and Full-Stack roles, and to discussing your project or improving your online presence.',
     HELLO_BUTTON: 'Say Hello',
+    VIEW_CV: "View Resume",
 };

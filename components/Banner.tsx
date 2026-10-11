@@ -5,8 +5,8 @@ const Banner = () => {
 
   return (
     <div className="wrapper flex flex-col md:flex-row items-center gap-10">
-      <div className="w-3/4 flex flex-col items-center md:items-start gap-4">
-        <h1 className="text-6xl  font-bold text-white">{BannerTexts.NAME}</h1>
+      <div className="2xl:w-3/4 flex flex-col items-center md:items-start gap-4">
+        <h1 className="2xl:text-5xl text-3xl  font-bold text-white">{BannerTexts.NAME}</h1>
         <h3 className="text-xl md:text-2xl font-semibold bg-clip-text text-transparent bg-linear-to-r from-blue-300 via-red-300 to-indigo-300 tracking-wide">
           {getJobRole()}
         </h3>

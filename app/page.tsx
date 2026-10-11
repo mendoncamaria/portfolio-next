@@ -11,7 +11,7 @@ import FeaturedIn from "@/container/FeaturedIn";
 
 export default function Home() {
   return (
-    <main className="w-full bg-gray-950 text-gray-300 px-4">
+    <main className="w-full bg-gray-950 text-gray-300 2xl:px-4 px-10 py-6 lg:py-8">
       <div className="max-w-(--breakpoint-xl) mx-auto lg:pt-10">
         <Banner />
         <AboutMe />
