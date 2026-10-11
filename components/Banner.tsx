@@ -1,6 +1,3 @@
-import Image from 'next/image';
-import ProfileImg from '../public/img/profilepic.jpeg';
-
 const Banner = () => {
   const getJobRole = () =>
     `Full Stack Developer   |   Code Mentor   |   Continuous Learner`;
