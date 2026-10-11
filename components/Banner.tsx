@@ -11,7 +11,7 @@ const Banner = () => {
           {getJobRole()}
         </h3>
 
-        <p className="text-base tracking-wide text-center md:text-left">
+        <p className="text-base tracking-wide md:text-left">
           {BannerTexts.DESCRIPTION}
         </p>
       </div>
