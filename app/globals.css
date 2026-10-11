@@ -4,6 +4,8 @@
 
 @layer components {
   .wrapper {
-    @apply border-b-[1px] border-b-slate-700 py-20;
+    /* @apply border-b-[1px] border-b-slate-700 py-20; */
+    /* instead of: @apply border-b-slate-700; */
+    border-bottom-color: #334155; /* slate-700 */
   }
 }
